@@ -9,7 +9,7 @@ public class DamkaBoard {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if ((i == n-1) && (j == n-1) && (i % 2 == 0)){
+                if ((i == n-1) && (j == n-1) && (i % 2 == 0)){ //#feedback - this is not needed. It's ok to have a space at the end of the row.
                     System.out.print("*");
                 }
                 else if (i % 2 == 0) {
